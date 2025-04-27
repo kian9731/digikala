@@ -1,0 +1,128 @@
+.supermarket{
+    width: 1334px;
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #dde0df;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    .right-item{
+        width: 473px;
+        height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    .rightitem1{
+        width: 64px;
+        height: 62px;
+        
+    }
+    .rightitem2{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 35px;
+        .svgshegetangiz{
+            width: 251px;
+            height: 29px; 
+         }
+         .textsvg{
+         background-color:#029a49 ; 
+         font-family: Yekan;
+         font-size:13px ;
+         padding: 11px;
+         border-radius: 11px;
+         
+         a{
+            text-decoration: none;
+            p{
+               color: white;
+               
+            }
+           
+         }
+         
+         }
+    
+    
+    
+    
+    }
+    
+    }
+    .left-item{
+        width: 651px;
+        height: 76px;
+        background-color: #dde0df;;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        .leftitems{  
+            width: 492px;
+            height: 75px;
+            background-color: #dde0df;;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            a{
+                position: relative;
+    
+                img{
+                    width: 70px;
+                    height: 64px; 
+                    border-radius:255px ;
+                     }
+                     span{
+                        position: absolute;
+                        background-color: rgba(255, 0, 0, 0.83);
+                        color: white;
+                        border-radius: 22px;
+                        padding: 5px 5px;
+                        font-size: 13px;
+                        font-weight: bold;
+                        left: 38px;
+                        top: 48px;
+                        
+    
+                     }
+            }
+     
+        }
+        
+    }
+    
+    .moreproducts{
+        width: 140px;
+        height: 52px;
+        background-color: white;
+        margin:15px auto ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 22px;
+        
+        a{
+            color: #029a49;
+            text-decoration: none;
+            padding: 11px;
+            border-radius: 11px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            p{
+              display: inline;
+    
+            }
+    
+        }
+    }
+        
+    
+    
+    
+    }

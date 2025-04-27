@@ -1,0 +1,60 @@
+.famousbrand {
+  width: 1337px;
+  height: 223px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  .famousbrand-top {
+    width: 200px;
+    height: 85px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+    
+      img{
+        max-height: 100%;
+        width: auto;
+      }
+
+      h1 {
+        margin: 0;
+        font-family: yekan;
+        font-weight: 500;
+        font-size: 21px;
+      }
+    }
+  }
+
+  .swiper-product {
+    width: 100%;
+    height: 117.98px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.ads{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:1343px ;
+    height:266px ;
+    margin: 0  auto;
+   
+    .ads1{
+      width: 665px;
+      height: 100%; 
+      border-radius: 21px;
+      a{
+        width:inherit;
+            height: inherit;
+        img{
+            width:inherit;
+            height: inherit;
+            border-radius: 21px;
+          }
+      }
+      
+      
+    }
+    .ads2{
+        width: 667px;
+        height: 100%;
+        border-radius: 21px;
+        a{
+            width:inherit;
+                height: inherit;
+            img{
+                width:inherit;
+                height: inherit;
+                border-radius: 21px;
+              }
+          }
+    }
+}

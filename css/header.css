@@ -1,0 +1,576 @@
+.Header {
+  width: 100%;
+  height: 170px;
+  box-shadow: 0 1px 2px #ababab;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  header {
+    width: inherit;
+    height: inherit;
+    .Header-top {
+      width: 100%;
+      height: 60px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .Header-center {
+      width: 100%;
+      height: 70px;
+      display: flex;
+      flex-flow: row wrap;
+      margin: 0 11px;
+      padding: 0 16px;
+      .Header-center-svg {
+        width: 14%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 20px;
+        img {
+          width: 195px;
+          height: 30px;
+        }
+      }
+      .Header-center-nangy {
+        width: 66%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        padding-right: 10px;
+        img {
+          width: 20px;
+          height: 20px;
+          position: relative;
+          right: 30px;
+        }
+        input[type="text"] {
+          width: 600px;
+          height: 44px;
+          background-color: #f0f0f1;
+          border: none;
+          outline: none;
+          padding-right: 35px;
+          font-family: Yekan, Nazanin;
+          caret-color: blue;
+          border-radius: 10px;
+          &::placeholder {
+            padding-right: 20px;
+            color: #92958b;
+            font-family: Yekan, Nazanin;
+            font-size: 12px;
+          }
+          &:focus::placeholder {
+            color: transparent;
+          }
+        }
+      }
+      .Header-center-register {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 15px;
+        .Header-center-register-login {
+          display: flex;
+          flex-flow: row wrap;
+          width: 135px;
+          height: 40px;
+          border: 1px solid lightgray;
+          justify-content: center;
+          align-items: center;
+          column-gap: 5px;
+          font-family: Yekan, Nazanin;
+          font-size: 12px;
+          text-decoration: none;
+          color: #1b100c;
+          font-weight: bold;
+          border-radius: 10px;
+          div {
+            width: 2px;
+            height: 15px;
+            background-color: #1b100c;
+          }
+        }
+        .Header-center-register-slide {
+          width: 1px;
+          height: 24px;
+          background-color: #e0e0e2;
+        }
+      }
+    }
+    .Header-bottom {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      flex-flow: row wrap;
+      margin: 0 12px;
+      padding: 0 2px;
+      .Header-bottom-1 {
+        width: 85%;
+        height: 100%;
+        nav {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          .nav-divs {
+            width: fit-content;
+            height: 100%;
+            a {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              column-gap: 5px;
+              height: 100%;
+              width: fit-content;
+              padding: 0 5px;
+              font-family: Yekan, Nazanin;
+              text-decoration: none;
+              font-size: 13px;
+              color: grey;
+              transition: 200ms;
+            }
+            .Hover-function {
+              &:hover {
+                border-bottom: 3px solid #ef394e;
+              }
+            }
+            .Mega-Menu {
+              width: 70vw;
+              height: 70vh;
+              background-color: #ffffff;
+              position: absolute;
+              right: 12px;
+              border-top: 1px solid #f0f0f1;
+              display: none;
+              .Mega-Menu-1 {
+                width: 18.5%;
+                height: 100%;
+                background-color: rgb(247, 247, 247);
+                overflow: auto;
+                direction: ltr;
+                .Mega-Menu-1-products {
+                  width: 100%;
+                  height: 50px;
+                  .Mega-Menu-1-products-pr {
+                    display: flex;
+                    width: 100%;
+                    height: 100%;
+                    flex-flow: row wrap;
+                    align-items: center;
+                    justify-content: end;
+                    transition: 300ms;
+                    span {
+                      font-family: Yekan, Nazanin;
+                      text-align: center;
+                      line-height: 40px;
+                      font-size: 12px;
+                      text-decoration: none;
+                      color: #585573;
+                      transition: 300ms;
+                    }
+                    img {
+                      width: 16px;
+                      height: 16px;
+                      object-fit: cover;
+                    }
+                  }
+                  .Mega-Menu-1-products-sb {
+                    width: 82.5%;
+                    height: 100%;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    flex-flow: row-reverse wrap;
+                    display: none;
+                    direction: rtl;
+                    transition: 300ms;
+                    transition-delay: 300ms;
+                    overflow: auto;
+                    direction: ltr;
+                    padding: 0 10px;
+                    background-color: #ffffff;
+                    .Mega-Menu-1-products-sb-ph {
+                      width: 100%;
+                      height: 9%;
+                      display: flex;
+                      flex-flow: row-reverse wrap;
+                      justify-content: flex-start;
+                      align-items: center;
+                      padding: 10px 5px;
+                      .Mega-Menu-1-products-sb-ph-all-phones {
+                        font-family: Yekan, Nazanin;
+                        font-size: 11px;
+                        color: #19bfd3;
+                        font-weight: 700;
+                        text-align: center;
+                      }
+                      .Mega-Menu-1-products-sb-ph-svg {
+                        width: 16px;
+                        height: 16px;
+                        display: flex;
+                        flex-flow: row wrap;
+                        align-items: center;
+                        text-align: center;
+                        img {
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                        }
+                      }
+                    }
+                    .Mega-Menu-1-products-sb-br {
+                      width: 100%;
+                      height: 91%;
+                      display: flex;
+                      flex-flow: row-reverse wrap;
+                      justify-content: space-between;
+                      padding: 20px 5px;
+                      .Mega-Menu-1-products-sb-br-child {
+                        width: 24.5%;
+                        height: 100%;
+                        display: flex;
+                        flex-flow: row-reverse wrap;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 10px 0;
+                        .Mega-Menu-1-products-sb-br-child-b {
+                          width: 100%;
+                          display: flex;
+                          flex-flow: row-reverse wrap;
+                          justify-content: flex-start;
+                          align-items: start;
+                          column-gap: 5px;
+                          margin-bottom: 5px;
+                          .Mega-Menu-1-products-sb-br-child-c {
+                            width: 2px;
+                            height: 14px;
+                            background-color: #ed1944;
+                            display: flex;
+                            flex-flow: row wrap;
+                            align-items: center;
+                            justify-content: center;
+                          }
+                          .Mega-Menu-1-products-sb-br-child-text {
+                            font-family: Yekan, Nazanin;
+                            font-size: 11px;
+                            font-weight: 700;
+                            color: #0c0c0c;
+                            align-items: center;
+                          }
+                          .Mega-Menu-1-products-sb-br-child-svg {
+                            width: 17px;
+                            height: 17px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding-bottom: 5px;
+                            img {
+                              width: 100%;
+                              height: 100%;
+                              object-fit: cover;
+                            }
+                          }
+                          &:hover .Mega-Menu-1-products-sb-br-child-text {
+                            color: #ed1944;
+                          }
+                        }
+                        .Mega-Menu-1-products-sb-br-child-brand {
+                          width: 100%;
+                          height: 40px;
+                          display: flex;
+                          flex-flow: row wrap;
+                          align-items: start;
+                          text-decoration: none;
+                          padding: 10px 0;
+                          .Mega-Menu-1-products-sb-br-child-brand-name {
+                            width: 100%;
+                            font-family: var(--number-font-family);
+                            font-size: 12px;
+                            color: #a1a3a8;
+                            text-align: right;
+                          }
+                          &:hover
+                            .Mega-Menu-1-products-sb-br-child-brand-name {
+                            color: #ed1944;
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  &:hover .Mega-Menu-1-products-pr {
+                    background-color: white;
+                  }
+                  &:hover .mega-menu-right-item-link span {
+                    color: #ef394e;
+                  }
+                  &:hover .Mega-Menu-1-products-sb {
+                    display: flex;
+                  }
+                }
+              }
+            }
+            &:hover .Mega-Menu {
+              display: flex;
+            }
+          }
+        }
+      }
+      label[for="modal"] {
+        display: flex;
+        width: fit-content;
+        padding: 6px 10px;
+        background-color: #fef6ef;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        font-family: Yekan, Nazanin;
+        font-size: 12px;
+        color: #f57f17;
+        cursor: pointer;
+        margin-bottom: 3px;
+        position: relative;
+        left: 28px;
+    }
+      #modal,
+      #close {
+        display: none;
+      }
+      .parent-select-city-page {
+        inset: 0 0 0 0;
+        position: fixed;
+        background-color: #b2b2b251;
+        display: none;
+        z-index: 999999999999;
+        .parent-select-city-0 {
+          width: 27%;
+          height: 80%;
+          padding-top: 50px;
+          border-radius: 10px;
+          background-color: #ffffff;
+          position: absolute;
+          left: calc(50% - 27% / 2);
+          top: calc(50% - 80% / 2);
+          display: flex;
+          flex-flow: column wrap;
+          .parent-select-city-0-1 {
+            width: 410px;
+            height: 58px;
+            padding: 0 20px;
+            display: flex;
+            position: absolute;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: space-between;
+            top: 0;
+            right: 0;
+            border-bottom: 1px solid #f0f0f1;
+            .parent-select-city-choose {
+              width: 238px;
+              height: 57px;
+              padding: 12px 0;
+              .digi-header-top-left-select-city-top-right-p {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+                p {
+                  color: #3f4064;
+                  font-family: Yekan, Nazanin;
+                  font-size: 16px;
+                  font-weight: 500;
+                  line-height: 24px;
+                  letter-spacing: 0.3px;
+                }
+              }
+            }
+            .parent-select-city-0-2 {
+              width: 24px;
+              height: 24px;
+              display: flex;
+              flex-flow: row wrap;
+              label[for="close"] {
+                width: 100%;
+                height: 100%;
+                font-size: 24px;
+                color: #141414;
+                font-weight: bolder;
+                cursor: pointer;
+              }
+            }
+          }
+          .parent {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: start;
+            justify-content: flex-start;
+            margin-top: 9px;
+            background-color: #ffffff;
+            z-index: 9999;
+            .parent-select {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              flex-flow: row wrap;
+              padding: 0 16px 16px 16px;
+              overflow-y: auto;
+              .parent-select-city-1 {
+                width: 100%;
+                height: 60px;
+                padding-bottom: 12px;
+                input[type="search"] {
+                  width: 100%;
+                  height: 44px;
+                  margin-top: 10px;
+                  background-color: #f0f0f1;
+                  border: none;
+                  border-radius: 30px;
+                  padding: 0 20px;
+                  font-family: Yekan, Nazanin;
+                  font-size: 16px;
+                  font-weight: 500;
+                  line-height: 24px;
+                  letter-spacing: 0.3px;
+                  color: #141414;
+                  outline: none;
+                  &::placeholder {
+                    font-family: Yekan, Nazanin;
+                    font-size: 12px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0.3px;
+                    color: #a1a6aa;
+                  }
+                }
+              }
+              .parent-select-city-2 {
+                width: 100%;
+                height: 80%;
+                display: flex;
+                flex-flow: column wrap;
+                align-items: center;
+                .parent-select-city-2-text {
+                  width: 100%;
+                  height: 50px;
+                  font-family: Yekan, Nazanin;
+                  font-size: 12px;
+                  color: #595959;
+                  text-align: justify;
+                }
+                
+                    }
+
+                    .swiper-slide {
+                      text-align: center;
+                      font-size: 18px;
+                      background: #fff;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      .swiper-slide-city {
+                        width: 80px;
+                        height: 40px;
+                        display: flex;
+                        flex-flow: row wrap;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        border: 1px solid #f0f0f1;
+                        padding: 5px;
+                        border-radius: 30px;
+                        p {
+                          font-family: Yekan, Nazanin;
+                          font-size: 10px;
+                          color: #3f4064;
+                          text-align: center;
+                          font-weight: 700;
+                        }
+                        img {
+                          width: 19px;
+                          height: 19px;
+                          object-fit: cover;
+                          margin-right: 6px;
+                          margin-bottom: 2px;
+                        }
+                      }
+                    }
+
+                    .swiper-slide img {
+                      display: block;
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                    }
+                  
+                
+                .parent-select-city {
+                  width: 100%;
+                  position: relative;
+                  top: 0;
+                  cursor: pointer;
+                  .parent-select-city-cities {
+                    width: 100%;
+                    height: 47px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    .parent-select-city-city {
+                      width: 100%;
+                      height: 100%;
+                      padding: 8px 0;
+                      border-bottom: 1px solid #f0f0f1;
+                      display: flex;
+                      flex-flow: row wrap;
+                      justify-content: space-between;
+                      align-items: center;
+                      .parent-select-city-city-select {
+                        width: 90%;
+                        height: 30px;
+                        .parent-select-city-city-select-name-of-city {
+                          font-family: Yekan, Nazanin;
+                          font-size: 14px;
+                          font-weight: 500;
+                          color: #0c0c0c;
+                          text-align: right;
+                        }
+                      }
+                      .parent-select-city-city-svg {
+                        width: 24px;
+                        height: 24px;
+                        display: flex;
+                        img {
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      #modal:checked ~ .parent-select-city-page {
+        display: flex;
+      }
+      #close:checked ~ .parent-select-city-page {
+        display: none;
+      }
+    }
+  }

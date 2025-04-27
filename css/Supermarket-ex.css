@@ -1,0 +1,390 @@
+label[for="Supermarket-on"] {
+    width: 129px;
+    height: 52px;
+    padding: 10px 12px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 32px;
+    right: 91%;
+    top: 600px;
+    z-index: 9999999;
+    border-radius: 25px;
+    background-color: #029a49;
+    color: #ffffff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Supermarket-title {
+    width: 50px;
+    height: 24px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.Supermarket-title span {
+    width: 100%;
+    height: 100%;
+    font-family: Yekan, Nazanin;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Supermarket-logo {
+    width: 23px;
+    height: 23px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 22px;
+}
+
+.Supermarket-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#Supermarket-on,
+#Supermarket-off {
+    display: none;
+}
+
+.Supermarket {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: -100%;
+    top: 0;
+    z-index: 99999999;
+    transition: 500ms;
+    margin-top: 42px; 
+}
+
+.Supermarket-fill {
+    width: 27%;
+    height: 46%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    position: absolute;
+    top: calc(50% - 46% / 2);
+    left: calc(50% - 27% / 2);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2px;
+}
+
+.Supermarket-fill-1 {
+    width: 100%;
+    height: 20%;
+    padding: 0 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Supermarket-fill-1-1 {
+    width: 90%;
+    height: 100%;
+    padding: 20px 0;
+}
+
+.Supermarket-fill-1-1-select {
+    width: 100%;
+    height: 33px;
+    font-family: Yekan, Nazanin;
+    font-size: 16px;
+    color: #3f4064;
+}
+
+.Supermarket-fill-1-1-cities {
+    width: 100%;
+    height: 26px;
+    font-family: Yekan, Nazanin;
+    font-size: 12px;
+    color: #a1a3a8;
+}
+.Supermarket-fill-1-2 {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.Supermarket-fill-1-2 label[for="Supermarket-off"] {
+    display: inline-block;
+    height: 80%;
+    width: 100%;
+    color: #464b54;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Supermarket-fill-2 {
+    width: 100%;
+    height: 85%;
+    margin-top: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 4px;
+    padding: 10px 0;
+    overflow: auto;
+}
+
+.Supermarket-fill-2-1 {
+    width: 48%;
+    height: 100%;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    background-color: #dbf3e6;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Supermarket-fill-2-1-1 {
+    width: 100%;
+    height: 34px;
+    padding: 0 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: start;
+    column-gap: 2px;
+}
+
+.Supermarket-fill-2-1-1-offs {
+    width: 118px;
+    height: 100%;
+    font-family: Yekan, Nazanin;
+    font-size: 15px;
+    color: #0c0c0c;
+    text-align: center;
+}
+
+.Supermarket-fill-2-1-1-svg {
+    width: 20px;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.Supermarket-fill-2-1-1-svg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Supermarket-fill-2-1-2 {
+    width: 100%;
+    height: 26px;
+    padding: 0 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+.Supermarket-fill-2-1-2-fill {
+    width: 103px;
+    height: 26px;
+    background-color: #029a49;
+    padding: 0 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    column-gap: 3px;
+}
+
+.Supermarket-fill-2-1-2-fill-basket {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Supermarket-fill-2-1-2-fill-basket img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Supermarket-fill-2-1-2-fill-sendtoday {
+    width: 55px;
+    height: 26px;
+    font-family: Yekan, Nazanin;
+    font-size: 10px;
+    color: #e4f4ec;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+.Supermarket-fill-2-1-3 {
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: end;
+}
+
+.Supermarket-fill-2-1-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Supermarket-fill-2-2 {
+    width: 48%;
+    height: 100%;
+    border-radius: 8px;
+    padding: 12px 0;
+    cursor: pointer;
+    background-color: #feebde;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Supermarket-fill-2-2-1 {
+    width: 193px;
+    height: 34px;
+    padding: 0 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: start;
+    column-gap: 2px;
+}
+
+.Supermarket-fill-2-2-1-full-of-offers {
+    width: 118px;
+    height: 100%;
+    font-family: Yekan, Nazanin;
+    font-size: 15px;
+    color: #0c0c0c;
+    text-align: center;
+}
+
+.Supermarket-fill-2-2-1-svg {
+    width: 20px;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.Supermarket-fill-2-2-1-svg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Supermarket-fill-2-2-2 {
+    width: 193px;
+    height: 26px;
+    padding: 0 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+.Supermarket-fill-2-2-2-fill {
+    width: 103px;
+    height: 26px;
+    background-color: #ff8042;
+    padding: 0 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    column-gap: 3px;
+}
+
+.Supermarket-fill-2-2-2-fill-svg {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Supermarket-fill-2-2-2-fill-svg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Supermarket-fill-2-2-2-fill-time {
+    width: 55px;
+    height: 26px;
+    font-family: Yekan, Nazanin;
+    font-size: 10px;
+    color: #e4f4ec;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+.Supermarket-fill-2-2-3 {
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: end;
+}
+
+.Supermarket-fill-2-2-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#Supermarket-on:checked ~ .Supermarket {
+    left: 0;
+}
+
+#Supermarket-off:checked ~ .Supermarket {
+    left: -100%;
+}

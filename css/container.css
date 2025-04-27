@@ -1,0 +1,55 @@
+.container{
+    width: 100%;
+    height: 149px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 43px;
+
+.container-center{
+    
+
+    width: 82px;
+    height: 100px;
+
+
+    a{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+
+
+        img{
+
+            width: 52px;
+            height: 52px;
+            display: flex;
+
+        }
+
+        span{
+            width: 70%;
+            margin: 5px auto;
+            font-family:Yekan,Nazanin;
+            text-align: center;
+            font-size: 12px;
+            line-height: 16px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            line-clamp: 3;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+            color: #5b5b5b;
+        
+        }
+
+    }
+
+}
+
+
+}

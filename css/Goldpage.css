@@ -1,0 +1,301 @@
+.center-section-gold {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #01494b url(../images/Gold/header-gold.png) center no-repeat;
+  background-size: auto 100%;
+}
+
+.center-section-gold-main {
+  width: 100%;
+  height: 207px;
+  margin: 0 290px;
+  padding-right: 20px;
+}
+
+.center-section-gold-main-texts {
+  width: 410px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-section-gold-main-texts-firstpart {
+  height: 69px;
+  font-family: Yekan, Nazanin;
+  text-align: justify;
+  font-weight: 800;
+  font-size: 33px;
+  color: #fff;
+}
+
+.center-section-gold-main-texts-firstpart-data {
+  color: #ffd08f;
+}
+
+.center-section-gold-main-texts-secondpart {
+  height: 90px;
+  font-family: Yekan, Nazanin;
+  font-size: 12px;
+  color: #fff;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.center-section-gold-main-buygold-section {
+  width: 180px;
+  height: 40px;
+  border: 1px solid #fff;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.center-section-gold-main-buygold-section-start-to-buy {
+  height: 26px;
+  font-family: Yekan, Nazanin;
+  font-size: 14px;
+  color: #2b2b2b;
+  text-align: center;
+  
+}
+.header-section-gold {
+  width: 100%;
+  height: 72px;
+  position: sticky;
+  top: 0;
+  background: #ffd08f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  z-index: 999;
+}
+
+.header-section-gold-center {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 170px;
+}
+
+.header-section-gold-center-right {
+  width: 243px;
+  height: 100%;
+  padding: 4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  column-gap: 6px;
+}
+
+.header-section-gold-center-right-pic {
+  width: 32px;
+  height: 32px;
+}
+
+.header-section-gold-center-right-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-section-gold-center-right-elgold,
+.header-section-gold-center-right-digikala {
+  font-family: Yekan, Nazanin;
+  font-size: 19px;
+  color: #0a4e4d;
+}
+
+.header-section-gold-center-right-elgold {
+  font-weight: 800;
+}
+
+.header-section-gold-center-right-digikala {
+  font-weight: 500;
+}
+
+.header-section-gold-center-left {
+  width: 150px;
+  height: 100%;
+  border: 1px solid #ffd08f;
+  border-radius: 12px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 12px 12px 4px;
+  text-decoration: none;
+}
+
+.header-section-gold-center-left-text {
+  font-family: Yekan, Nazanin;
+  font-size: 14px;
+  color: #e82c53;
+  font-weight: 500;
+  text-align: center;
+}
+.downside-section-gold-main-spans-main-firstspan-color{
+    font-size: 21px; 
+    margin-top: 30px;
+    color: rgb(1, 73, 75);
+    font-family: Yekan, Nazanin;
+
+}
+.downside-section-gold-main-spans-main-secondspan-color{
+    font-size: 12px;
+    color: rgb(1, 73, 75);
+    font-family: Yekan, Nazanin;
+}
+
+.header-section-gold-center-left-pic {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3px;
+}
+
+.header-section-gold-center-left-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.downside-section-gold {
+  width: 100%;
+  height: 500px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.downside-section-gold-main {
+  width: 100%;
+  height: 100%;
+  margin: 0 209px;
+  border-radius: 12px;
+  background: #e5eceb;
+  padding: 16px;
+}
+
+.downside-section-gold-main-ready-to-start {
+  font-family: Yekan, Nazanin;
+  font-size: 20px;
+  font-weight: 800;
+  color: #01494b;
+  line-height: 30px;
+  text-align: center;
+}
+
+.downside-section-gold-main-spans {
+  width: 100%;
+  height: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 14px;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.downside-section-gold-main-spans-main {
+  width: 24%;
+  height: 90%;
+  border-radius: 12px;
+  background: #01494b;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 10px;
+  overflow: hidden;
+}
+.downside-section-gold-main-spans-main-background {
+  width: 24%;
+  height: 90%;
+  border-radius: 12px;
+  background: #ffd08f;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 10px;
+  overflow: hidden;
+}
+
+.downside-section-gold-main-spans-main-firstspan,
+.downside-section-gold-main-spans-main-secondspan {
+  width: 100%;
+  padding: 0 8px;
+  font-family: Yekan, Nazanin;
+  text-align: center;
+  font-size: 55px;
+}
+
+.downside-section-gold-main-spans-main-firstspan {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 125%;
+  margin-top: 32px;
+  color: #fff;
+}
+
+.downside-section-gold-main-spans-main-secondspan {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 125%;
+  color: #fff;
+}
+
+.downside-section-gold-main-spans-main-pics {
+  width: 100%;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.downside-section-gold-main-spans-main-pics img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.downside-section-gold-main-start-to-buy {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  border: 1px solid #0a4e4e;
+  border-radius: 12px;
+  background: #0a4e4e;
+  margin: 0 auto;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.downside-section-gold-main-start-to-buy-txt {
+  width: 146px;
+  height: 26px;
+  color: #fff;
+  font-family: Yekan, Nazanin;
+  font-size: 12px;
+  text-align: center;
+}
+
+.back-color {
+  background-color: #ffd08f !important;
+}
+
+.font-color {
+  color: #0a4e4e !important;
+}
